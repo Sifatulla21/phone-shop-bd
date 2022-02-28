@@ -5,4 +5,16 @@
 }
 .card{
     margin-left: 100px;
+    border-radius: 100px;
+}
+.card-body{
+    background-color: rgba(144, 75, 161, 0.315);
+}
+.button-details{
+    background-color: transparent;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
 }
