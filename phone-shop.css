@@ -1,3 +1,23 @@
+.body-color{
+    background-color: rgba(235, 245, 192, 0.39);
+}
+.shop-name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+}
+i{
+    color: crimson;
+}
+/* search button */
+#button-search{
+    background-color: goldenrod;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+/* card */
 .card img{
     height: 80%;
     width: 50%;
@@ -11,6 +31,7 @@
 .card-body{
     background-color: rgba(144, 75, 161, 0.315);
 }
+/* card button */
 .button-details{
     background-color: goldenrod;
     height: 50px;
@@ -23,6 +44,7 @@
 #details-result{
     margin-bottom: 200px;
 }
+/* invalid messge  */
 .invalid{
     color: red;
     display: none;
@@ -32,6 +54,7 @@
     font-size: xx-large;
     font-weight: bolder;
 }
+/* make list iteam bold */
 .bold{
     font-weight: bolder;
 }
