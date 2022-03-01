@@ -78,6 +78,10 @@ const displayDetails = data => {
                     <span class="bold">Chipset:</span>
                         ${data.mainFeatures.chipSet}
                     </li>
+                    <li>
+                    <span class="bold">Memory:</span>
+                        ${data.mainFeatures.memory}
+                    </li>
                 </ul>
                 <h3 class="card-title">Sensors:</h3>
                 <ul>
