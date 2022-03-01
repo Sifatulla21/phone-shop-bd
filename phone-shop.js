@@ -14,10 +14,12 @@ const searchPhone = () => {
 const displaySearchResult = data => {
     const searchResult = document.getElementById('search-result');
     searchResult.textContent = '';
+    const noResultFound = document.getElementById('no-result-found');
     if(data.length == 0){
-        console.log('no result found');
+        noResultFound.style.display = 'block';
     }
     else{
+        noResultFound.style.display = 'none';
         data.forEach(data => {
             const div = document.createElement('div');
             div.classList.add('search');

@@ -21,3 +21,12 @@
 #details-result{
     margin-bottom: 200px;
 }
+.invalid{
+    color: red;
+    display: none;
+}
+#no-result-found{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
