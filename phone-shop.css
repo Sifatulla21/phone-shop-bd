@@ -1,22 +1,24 @@
-.col img{
-    height: 400px;
-    width: 380px;
-    padding: 30px;
+.card img{
+    height: 80%;
+    width: 50%;
+    margin: 50px;
 }
 .card{
-    margin-left: 100px;
+    margin-left: 50px;
     border-radius: 100px;
+    width: 500px;
 }
 .card-body{
     background-color: rgba(144, 75, 161, 0.315);
 }
 .button-details{
-    background-color: transparent;
+    background-color: goldenrod;
     height: 50px;
-    width: 100px;
+    width: 100%;
     border-radius: 5px;
     color: black;
     font-weight: bolder;
+    margin-top: 30px;
 }
 #details-result{
     margin-bottom: 200px;
@@ -29,4 +31,10 @@
     text-align: center;
     font-size: xx-large;
     font-weight: bolder;
+}
+.bold{
+    font-weight: bolder;
+}
+ul li {
+    list-style: none;
 }
